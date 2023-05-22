@@ -1,13 +1,13 @@
 # Lab 2 :: Exploring Reserved Instances using CUR
 
-Exploring Reserved Instances in Cost and Usage Report (CUR), and build our own visualization for reservation utilization in Quicksight using Quicksight Analysis and Quicksight Dataset.
+Exploring Reserved Instances in Cost and Usage Report (CUR), and build our own visualization for reserves utilization in Quicksight.
 
 ## Prerequisite
 
 1. User/role to log into an AWS account with QuickSight and CUR enabled,
 2. Quicksight User (they are seperate from AWS account user/role) access to the CUR dataset.
 
-## Part 1. Exploring the dataset available
+## Part 1. Exploring the datasets available
 
 Datasets are used to create Quicksight Analysis. By default, the avaiable dataset is generally the ones you own or the ones shared with you.
 
@@ -31,7 +31,6 @@ Additional datasets can be added to an analysis at any time; within the analysis
 
 ![Additional datasets](./images/add-dataset-in-this-analysis.png)
 
-
 ## Part 3. Exploring the CUR datasets
 
 Let's explore Reserves!
@@ -40,7 +39,6 @@ Let's explore Reserves!
 
 - **Scenario 1: RI usage is 100%,** Table 2 – Unused RI costs for a 100% RI usage in AWS CUR
 - **Scenario 2: Partial RI usage,** Table 4 – Unused RI costs for a partial RI usage in AWS CUR
-
 
 [Understanding your amortized reservation data](https://docs.aws.amazon.com/cur/latest/userguide/amortized-reservation.html)
 
@@ -69,7 +67,7 @@ Visualize it by the billing period, using the field `bill_billing_period_start_d
 
 Exploring the select fields using different types of Visuals! 
 
-![Sum of Reservation_unused_quantity by Bill_billing_period_start_date](./images/visual-types.png)
+![Various visual types](./images/visual-types.png)
 
 ## Part 5. Try this!
 Try create this Pivot Table?
